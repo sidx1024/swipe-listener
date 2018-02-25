@@ -14,11 +14,11 @@
   <div id="message"></div>
   <script src="dist/swipe-listener.min.js"></script>
   <script>
-    let setMessage = function (msg) {
+    var setMessage = function (msg) {
       document.querySelector('#message').innerHTML = msg;
     }
 
-    let container = document.querySelector('#container');
+    var container = document.querySelector('#container');
     container.addEventListener('touchstart', function () {
       setMessage('');
     });

@@ -1,8 +1,8 @@
 html, body, #container, #message {
   height: 100%;
   width: 100%;
-  overflow: none;
-  font-family: 'verdana';
+  overflow: hidden;
+  font-family: 'verdana', sans-serif;
   letter-spacing: 1.1px;
   text-align: center;
   margin: 0;
